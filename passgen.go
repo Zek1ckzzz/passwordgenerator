@@ -16,7 +16,7 @@ func main() {
 	MIN := 0
 	MAX := 94
 	SEED := time.Now().Unix()
-	var LENGTH int64 = 8
+	var LENGTH int64 = 10
 
 	arguments := os.Args
 	switch len(arguments) {
